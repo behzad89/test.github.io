@@ -4,19 +4,22 @@ project:
 
 website:
   title: "My Workshop"
-  sidebar:
-  style: floating
-  collapse-level: 1
-  tools:
-    - icon: github
-      href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
-  contents:
-    - index.qmd
-    - Materials.qmd
-    - text: Imago
-      href: https://imago.ac.uk
+  navbar:
+    type: sidebar          # enables a sidebar
+    left:                  # main menu items
+      - text: Home
+        href: index.qmd
+      - text: Materials
+        href: Materials.qmd
+      - text: Imago
+        href: https://imago.ac.uk
+    right:                 # optional tools/icons
+      - icon: github
+        href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
 
 format:
   html:
     theme: cosmo
+    toc: true               # table of contents in sidebar for each page
+    toc-location: sidebar
     css: styles.css
