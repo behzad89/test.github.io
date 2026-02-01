@@ -4,15 +4,17 @@ project:
 
 website:
   title: "My Workshop"
-  navbar:
-    type: sidebar      # <-- this enables a sidebar
-    left:
-      - text: Home
-        href: index.qmd
-      - text: About
-        href: about.qmd
-      - text: Materials
-        href: materials.qmd
+  sidebar:
+  style: floating
+  collapse-level: 1
+  tools:
+    - icon: github
+      href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
+  contents:
+    - index.qmd
+    - Materials.qmd
+    - text: Imago
+      href: https://imago.ac.uk
 
 format:
   html:
