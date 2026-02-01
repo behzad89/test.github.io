@@ -23,6 +23,6 @@ website:
         href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
     contents:
       - index.qmd
-      - Materials.qmd
+      - materials.qmd
       - text: Imago
         href: https://imago.ac.uk
