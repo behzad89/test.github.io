@@ -5,10 +5,14 @@ project:
 website:
   title: "My Workshop"
   navbar:
+    type: sidebar      # <-- this enables a sidebar
     left:
-      - index.qmd
-      - about.qmd
-      - materials.qmd
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Materials
+        href: materials.qmd
 
 format:
   html:
