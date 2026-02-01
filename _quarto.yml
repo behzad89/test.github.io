@@ -1,25 +1,24 @@
-project:
-  type: website
-  output-dir: docs
-
 website:
-  title: "My Workshop"
-  navbar:
-    type: sidebar          # enables a sidebar
-    left:                  # main menu items
-      - text: Home
-        href: index.qmd
-      - text: Materials
-        href: Materials.qmd
-      - text: Imago
-        href: https://imago.ac.uk
-    right:                 # optional tools/icons
+  title: "EMBED2Social Workshop 2026"
+
+  page-footer:
+    center: |
+      [[Imago]{.green}](https://imago.ac.uk), part of the [[Smart Data Research UK]{.blue}](https://www.sdruk.ukri.org/) family.
+
+  repo-url: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
+  repo-branch: main
+
+  search:
+    location: sidebar
+    type: overlay
+  sidebar:
+    style: floating
+    collapse-level: 1
+    tools:
       - icon: github
         href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
-
-format:
-  html:
-    theme: cosmo
-    toc: true               # table of contents in sidebar for each page
-    toc-location: sidebar
-    css: styles.css
+    contents:
+      - index.qmd
+      - Materials.qmd
+      - text: Imago
+        href: https://imago.ac.uk
