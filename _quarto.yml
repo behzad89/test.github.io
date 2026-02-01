@@ -1,3 +1,7 @@
+project:
+  type: website
+  output-dir: docs
+
 website:
   title: "EMBED2Social Workshop 2026"
 
