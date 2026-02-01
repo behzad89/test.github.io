@@ -1,8 +1,18 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My start page",
+    "section": "",
+    "text": "My start page\n\nHappy to be here",
+    "crumbs": [
+      "My start page"
+    ]
+  },
+  {
     "objectID": "materials.html",
     "href": "materials.html",
-    "title": "Materials",
+    "title": "Materials for Workshop",
     "section": "",
     "text": "Materials for Workshop\nHere are slides, data, references…"
   }
